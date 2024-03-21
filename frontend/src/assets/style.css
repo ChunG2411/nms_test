@@ -1,0 +1,144 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none !important;
+  color: #213547 !important;
+}
+
+p {
+  margin: 0 !important;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  position: relative;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border: 0;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.btn-orange {
+  background-color: #ff7227;
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  width: max-content;
+  cursor: pointer;
+}
+
+.btn-orange:hover {
+  background-color: #ff965e;
+}
+
+.btn-green {
+  background-color: #6effd6;
+  color: #00523a;
+  padding: 5px 10px;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  width: max-content;
+  font-weight: 600;
+  font-size: 14px;
+  height: max-content;
+}
+
+.btn-green:hover {
+  background-color: #a6fce3;
+}
+
+.card {
+  padding: 2em;
+}
+
+.notification {
+  background: #232f3e;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.color-orange {
+  color: #ff7227 !important;
+}
+
+.color-gray {
+  color: gray !important;
+}
+
+.outline-orange {
+  outline: #ff7227 !important;
+}
+
+.channel-icon {
+  border-radius: 50%;
+  width: 35px;
+}
+
+.avatar-slot {
+  border-radius: 50%;
+  width: 40px;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+#app {
+  margin: 0;
+  text-align: center;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
